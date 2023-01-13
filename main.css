@@ -1,0 +1,47 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#fridge-container {
+    margin: 0 auto;
+    height: 810px;
+    padding: 80px 60px 160px 60px;
+
+    background-color: lightgray;
+    background-image: url('../img/fridge_1600_810.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#fridge-products-container {
+    background: url(/src/img/1cab9b2bd255a4469ccab1ddc8e6f812.jpg);
+     
+    background-color: rgb(243, 164, 112); 
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+#fridge-products-container > .card {
+    height: fit-content;
+    background-color: aquamarine;
+    background: url(/src/img/1cab9b2bd255a4469ccab1ddc8e6f812.jpg);
+}
+/*Span und Control Panel Hintergrund auf Grau eingestellt*/
+.py-4{
+    background-color: gray;
+}
+.col-1{
+    background-color: gray;
+
+}
+.form-label{
+/*     font-size: 14pt;
+ */    color: aliceblue;
+}
